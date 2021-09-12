@@ -33,7 +33,7 @@ h1,h2,h3,p{
     padding: 0.5em 1.25em;
     background: var(--clr-accent,skyblue);
     border-radius: .25em;
-    color: whitesmoke;
-    font-size: 1.125rem;
+    color: var(--clr-accent,whitesmoke;
+    font-size: 1.125rem
     font-weight: bold;
 }
