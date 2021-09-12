@@ -7,11 +7,21 @@
 body{
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
 img{
     max-width:100%;
     height: auto;
     display: block;
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+.container {
+    width: 85%;
+    max-width: 65em;
+    margin: 0 auto;
 }
