@@ -25,3 +25,15 @@ h1,h2,h3,p{
     max-width: 65em;
     margin: 0 auto;
 }
+
+.btn{
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em 1.25em;
+    background: var(--clr-accent,skyblue);
+    border-radius: .25em;
+    color: whitesmoke;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
