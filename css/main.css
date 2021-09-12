@@ -33,7 +33,21 @@ h1,h2,h3,p{
     padding: 0.5em 1.25em;
     background: var(--clr-accent,skyblue);
     border-radius: .25em;
-    color: var(--clr-accent,whitesmoke;
-    font-size: 1.125rem
+    color: var(--clr-accent,whitesmoke);
+    font-size: 1.125rem;
     font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+                opacity: 0.18s linear;
 }
+
+.btn:hover,
+.btn:focus{
+    transform: scale(1.1);
+    opacity: .9;
+}
+
+.primary-text{font-size: 4rem;
+    font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+    line-height: 1;
+    text-transform: uppercase;}
+
